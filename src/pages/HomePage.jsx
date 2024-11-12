@@ -385,30 +385,24 @@ export default function PaginaInicio() {
               <img src={logob} alt="" />
             </div>
             <div className="w-full md:w-1/4 mb-6 md:mb-0">
-              <h3 className="text-xl font-semibold mb-4">Enlaces Rápidos</h3>
-              <ul>
-                <li><a href="#" className="hover:text-secondary transition-colors">Sobre Nosotros</a></li>
-                <li><a href="#" className="hover:text-secondary transition-colors">Servicios</a></li>
-                <li><a href="#" className="hover:text-secondary transition-colors">Rastrear Paquete</a></li>
-                <li><a href="#" className="hover:text-secondary transition-colors">Contacto</a></li>
-              </ul>
-            </div>
-            <div className="w-full md:w-1/4 mb-6 md:mb-0">
-              <h3 className="text-xl font-semibold mb-4">Contáctanos</h3>
-              <p>1234 Calle del Envío</p>
-              <p>Ciudad Logística, CL 56789</p>
-              <p>Teléfono: (123) 456-7890</p>
-              <p>Email: info@nombreempresa.com</p>
+              <h3 className="text-xl font-semibold mb-4">Ubicaciones</h3>
+              <b>Peru:</b>
+              <p>Av Perú 3013, SMP LIMA (PANET E.I.R.L)</p>
+              <b>Chile:</b>
+              <p>Cerro El Plomo 5931. Las Condes. Santiago (PANET CL SPA)</p>
             </div>
             <div className="w-full md:w-1/4">
-              <h3 className="text-xl font-semibold mb-4">Síguenos</h3>
-              <div className="flex space-x-4">
-                {/* Agregar iconos de redes sociales aquí */}
+              <h3 className="text-xl font-semibold mb-4">Contactanos</h3>
+              <div className="row-auto space-x-4">
+                <b>Peru:</b>
+                <p>gerencia@paneteirl.com</p>
+                <b>Chile:</b>
+                <p>gerenciacl@paneteirl.com</p>
               </div>
             </div>
           </div>
           <div className="mt-8 text-center">
-            <p>&copy; 2023 Nombre de la Empresa. Todos los derechos reservados.</p>
+            <p>&copy; 2024 PANET EIRL & PANET CL SPA. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
