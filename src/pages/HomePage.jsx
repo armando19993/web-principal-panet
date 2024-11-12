@@ -5,6 +5,7 @@ import {Ship, Package, Globe, MapPin, Search, ArrowUp} from 'lucide-react'
 import logo from '../assets/logon.png'
 import logob from '../assets/logo.png'
 import CalculadoraPaquetes from "../components/CalculadoraComponent.jsx";
+import {Link} from "react-router-dom";
 
 const CountUp = ({end, duration = 2}) => {
     const [count, setCount] = useState(0)
@@ -408,7 +409,7 @@ export default function PaginaInicio() {
                         </div>
                     </div>
                     <div className="mt-8 text-center">
-                        <p>&copy; 2024 PANET EIRL & PANET CL SPA. Todos los derechos reservados.</p>
+                        <p>&copy; 2024 PANET EIRL & PANET CL SPA. Todos los derechos reservados. <Link to={'/terminos-condiciones'}> Terminos y Condicines </Link></p>
                     </div>
                 </div>
             </footer>

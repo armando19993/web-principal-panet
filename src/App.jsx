@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import HomePage from './pages/HomePage'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import TerminosCondiciones from './pages/TerminosCondiciones'; // Asegúrate de crear este componente
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <HomePage />
-  )
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/terminos-condiciones" element={<TerminosCondiciones />} />
+        </Routes>
+      </Router>
+  );
 }
 
-export default App
+export default App;
